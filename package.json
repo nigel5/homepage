@@ -1,9 +1,9 @@
 {
-  "name": "nigel5 homepage",
+  "name": "nigels-homepage",
   "private": true,
   "description": "Homepage",
   "version": "0.1.0",
-  "author": "Nigel Huang nigelhuang2000@gmail.com"
+  "author": "Nigel Huang nigelhuang2000@gmail.com",
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "gatsby": "^2.20.35",
@@ -36,7 +36,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
