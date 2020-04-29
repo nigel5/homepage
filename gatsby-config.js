@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nigel Huang`,
-    description: `Personal website of Nigel Huang (CA)`,
+    description: `Personal website of Nigel Huang (CA), Ryerson University`,
     author: `@nigel5`,
   },
   plugins: [
