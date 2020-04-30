@@ -1,5 +1,5 @@
 import React from 'react';
-import Leo from './images/Leo.jpg';
+import Leo from './images/leo.jpg';
 import TLL from './images/TranCore_Link_Logistics_Logo.jpg';
 import Typography from "@material-ui/core/Typography";
 import Grid from '@material-ui/core/Grid';
