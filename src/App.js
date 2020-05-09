@@ -4,6 +4,7 @@ import TLL from './images/TranCore_Link_Logistics_Logo.jpg';
 import Typography from "@material-ui/core/Typography";
 import Grid from '@material-ui/core/Grid';
 import {OutboundLink} from "react-ga";
+import Resume from "./files/nigelHuangResume.pdf";
 
 const styles = {
     root: {
@@ -43,7 +44,7 @@ function App() {
                     <OutboundLink target="_blank" style={styles.outboundLink} eventLabel={"link-to-github"} to={"https://github.com/nigel5"}>
                         <Typography>GitHub</Typography>
                     </OutboundLink>
-                    <OutboundLink target="_blank" style={styles.outboundLink} eventLabel={"link-to-resume"} to={"https://drive.google.com/open?id=1Id59vZgLEyLLlwFfNe-dvou9XraZ20Xp"}>
+                    <OutboundLink target="_blank" style={styles.outboundLink} eventLabel={"link-to-resume"} to={Resume}>
                         <Typography>Resume</Typography>
                     </OutboundLink>
                     <OutboundLink target="_blank" style={styles.outboundLink} eventLabel={"link-to-linkedin"} to={"http://linkedin.com/in/nigel-huang/"}>
