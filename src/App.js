@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Leo from './images/leo.jpg';
 import TLL from './images/TranCore_Link_Logistics_Logo.jpg';
 import Typography from "@material-ui/core/Typography";
@@ -27,6 +27,12 @@ const styles = {
 }
 
 function App() {
+    useEffect(() => {
+        console.log("ok");
+        ReactGA.initialize("UA-148475828-2");
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    });
+
   return (
     <div className="App" style={styles.root}>
         <Grid container direction={"column"} alignItems={"center"} spacing={2}>

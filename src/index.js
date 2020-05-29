@@ -4,9 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import SEO from './components/seo';
-import ReactGA from 'react-ga';
-ReactGA.initialize("UA-148475828-2");
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
   <React.StrictMode>
