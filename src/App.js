@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import Grid from '@material-ui/core/Grid';
 import {OutboundLink} from "react-ga";
 import Resume from "./files/nigelHuangResume.pdf";
+import ReactGA from "react-ga";
 
 const styles = {
     root: {
