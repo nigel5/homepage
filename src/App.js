@@ -4,6 +4,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import { Helmet } from 'react-helmet';
 import { dark, light } from './theme/themes';
 import GlobalStyles from './theme/GlobalStyle';
+import ReactGA from 'react-ga'
 
 const Blinking = styled.span`
   animation: blinker 1.2s step-start infinite;
@@ -35,6 +36,11 @@ const CardBadges = styled.p`
 
 function App() {
   const [darkMode, setDarkMode] = React.useState(1);
+  
+  React.useEffect(() => {
+      ReactGA.initialize("UA-148475828-2");
+      ReactGA.pageview(window.location.pathname + window.location.search);
+  });
 
   return (
     <ThemeProvider theme={light}>
