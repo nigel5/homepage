@@ -65,7 +65,7 @@ function App() {
               <p className="h1">Nigel Huang</p>
               <p>Software Engineer</p>
               <p>
-                Hello, my name is Nigel. I have 1 year experience working at <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noopener noreferrer">RBC</a>, and <a href="https://loadlink.ca" target="_blank" rel="noopener noreferrer">Loadlink Technologies</a> with data intensive systems, automation, and integration. I am currently in my 3rd year of Computer Engineering at Ryerson University.
+                Hello, my name is Nigel. I have 1 year experience working at <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noopener noreferrer">RBC</a> and <a href="https://loadlink.ca" target="_blank" rel="noopener noreferrer">Loadlink Technologies</a> with data intensive systems, automation, and integration. I am currently in my 3rd year of Computer Engineering at Ryerson University.
               </p>
               <p>
                 GitHub: <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer">https://github.com/nigel5</a>
