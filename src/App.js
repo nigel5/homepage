@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import styled, { ThemeProvider } from 'styled-components';
 import { Helmet } from 'react-helmet';
-import { dark, light } from './theme/themes';
+import { light } from './theme/themes';
 import GlobalStyles from './theme/GlobalStyle';
 import ReactGA from 'react-ga'
 
@@ -22,20 +22,20 @@ const Card = styled.div`
   border-radius: 10px;
 `;
 
-const CardSectionHeader = styled.p`
-  font-weight: bold;
-`;
+// const CardSectionHeader = styled.p`
+//   font-weight: bold;
+// `;
 
-const CardSectionContent = styled.p`
-`;
+// const CardSectionContent = styled.p`
+// `;
 
-const CardBadges = styled.p`
+// const CardBadges = styled.p`
 
-`;
+// `;
 
 
 function App() {
-  const [darkMode, setDarkMode] = React.useState(1);
+  // const [darkMode, setDarkMode] = React.useState(1);
   
   React.useEffect(() => {
       ReactGA.initialize("UA-148475828-2");
