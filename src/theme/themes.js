@@ -3,7 +3,7 @@ export const light = {
   background2: '#ffffff',
   foreground: '#000000',
   sectionTitle: {
-    color: 'rgb(52, 199, 89)'
+    color: '#1b5e20'
   },
   a: {
     color: '#000000'
@@ -15,7 +15,7 @@ export const dark = {
   background2: '#000000',
   foreground: '#ffffff',
   sectionTitle: {
-    color: 'rgb(48, 209, 88)'
+    color: '#76ff03'
   },
   a: {
     color: '#ffffff'

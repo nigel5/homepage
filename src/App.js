@@ -44,14 +44,16 @@ const SplashContent = styled.div`
 
 const H1 = styled.h1`
   font-weight: 400;
-  @media (max-width:480px) {
+  @media (min-width:480px) {
     font-size: 2rem;
   }
 `;
 
 const H2 = styled.h2`
   font-weight: 400;
-  font-size: 2rem;
+  @media (min-width:480px) {
+    font-size: 2rem;
+  }
 `;
 
 const Section = styled.section`
@@ -75,8 +77,18 @@ const SectionTitle = styled.div`
 const SectionContent = styled.div`
 `;
 
+const ToggleDarkMode = styled.button`
+  border: none;
+  background: inherit;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+`;
+
 function App() {
-  const [darkMode, setDarkMode] = React.useState(0);
+  const [darkMode, setDarkMode] = React.useState(false);
   
   React.useEffect(() => {
       ReactGA.initialize("UA-148475828-2");
@@ -98,7 +110,7 @@ function App() {
           <a href="/Nigel_Huang_Resume.pdf"><p>Resume</p></a>
           <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer"><p>GitHub</p></a>
           <a href="http://linkedin.com/in/nigel-huang/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
-          <a href="#" onClick={() => setDarkMode(!darkMode)}><p>Dark mode / Light mode</p></a>
+          <ToggleDarkMode tabIndex={0} aria-pressed={darkMode} aria-label="Toggle" aria-describedby="Toggle dark theme" onClick={() => setDarkMode(!darkMode)}><p>| Toggle Dark mode</p></ToggleDarkMode>
         </SplashContent>
       </header>
       <Section>
