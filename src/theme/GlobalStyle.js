@@ -4,14 +4,21 @@ export default createGlobalStyle`
   body {
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.foreground};
-    transition: all 0.25s linear;
-    min-height: 100vh;
     margin: 0;
+    padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto Mono', monospace;
+  }
+  html {
+    margin: 0;
+    padding: 0;
   }
   code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: 'Roboto Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+  }
+  a {
+    color: ${({ theme }) => theme.a.color};
   }
 `;
