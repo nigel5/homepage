@@ -125,7 +125,7 @@ function App() {
             I recently completed an amazing summer internship at the <b>Royal Bank of Canada (RBC)</b> as a <b>Quality Engineer</b>. Previously, I interned as a <b>Software Developer</b> at <b>Loadlink Technologies</b>. Awesome stuff.
           </p>
           <p>
-            As a rising Software Engineer, I enjoy working with others, learning, spreading knowledge, and building systems that enhances our lives, connect us, and provide a good experience.
+            As a rising Software Engineer, I enjoy working with others, learning, spreading knowledge, and building systems which enhances our lives, connect us, and provide a good experience for both the end user and developers.
           </p>
         </SectionContent>
       </Section>
