@@ -103,7 +103,7 @@ function App() {
       <header>
         <SplashHeader>
           <H1>Hey there!</H1>
-          <H2>I'm <b>Nigel Huang</b>, 3rd year Computer Engineering student.</H2>
+          <H2>I'm <b>Nigel Huang</b>, a 3rd year Computer Engineering student.</H2>
         </SplashHeader>
         <SplashContent>
           <a href="mailto:nigelhuang2000@gmail.com"><p>Email Contact: nigel.huang@ryerson.ca</p></a>
