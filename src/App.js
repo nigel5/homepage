@@ -103,23 +103,35 @@ function App() {
       <header>
         <SplashHeader>
           <H1>Hey there!</H1>
-          <H2>I'm <b>Nigel Huang</b>, a Software Engineer and 3rd year Computer Engineering student.</H2>
+          <H2>I'm <b>Nigel Huang</b>, 3rd year Computer Engineering student.</H2>
         </SplashHeader>
         <SplashContent>
-          <a href="mailto:nigelhuang2000@gmail.com"><p>Email Contact: nigelhuang2000@gmail.com</p></a>
+          <a href="mailto:nigelhuang2000@gmail.com"><p>Email Contact: nigel.huang@ryerson.ca</p></a>
           <a href="/Nigel_Huang_Resume.pdf"><p>Resume</p></a>
           <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer"><p>GitHub</p></a>
           <a href="http://linkedin.com/in/nigel-huang/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
           <ToggleDarkMode tabIndex={0} aria-pressed={darkMode} aria-label="Toggle" aria-describedby="Toggle dark theme" onClick={() => setDarkMode(!darkMode)}><p>| Toggle Dark mode</p></ToggleDarkMode>
         </SplashContent>
       </header>
+
+      <Section>
+        <SectionTitle>
+          <p>Jupyter Notebooks</p>
+        </SectionTitle>
+        <SectionContent>
+          <p><a href="/analysis.html">Analysis of Top 1000 Submissions in r/Toronto</a></p>
+          <p><a href="/train.html">Training a sentiment classifier using a Naive Bayes model</a></p>
+          <p><a href="/weather.html">Time Series Analysis and Forecasting of Atlanta Weather</a></p>
+        </SectionContent>
+      </Section>
+
       <Section>
         <SectionTitle>
           <p>About me</p>
         </SectionTitle>
         <SectionContent>
           <p>
-            I am currently an 3rd year undergrad student at <b>Ryerson University</b> working towards my degree in <b>Computer Engineering, with a focus in Software Engineering</b>.
+            I am currently a 3rd year undergrad student at <b>Ryerson University</b> working towards my degree in <b>Computer Engineering, with a focus in Software Engineering</b>.
           </p>
           <p>
             I recently completed an amazing summer internship at the <b>Royal Bank of Canada (RBC)</b> as a <b>Quality Engineer</b>. Previously, I interned as a <b>Software Developer</b> at <b>Loadlink Technologies</b>. Awesome stuff.
@@ -146,7 +158,7 @@ function App() {
           Work Experience
         </SectionTitle>
         <SectionContent>
-          <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer (Summer 2020)</p>
+          <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
           <p><b>Loadlink Technologies</b> - Software Developer Intern (Summer 2019)</p>
         </SectionContent>
       </Section>
