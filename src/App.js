@@ -88,7 +88,7 @@ const ToggleDarkMode = styled.button`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = React.useState(false);
+  const [darkMode, setDarkMode] = React.useState(true);
   
   React.useEffect(() => {
       ReactGA.initialize("UA-148475828-2");
