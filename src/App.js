@@ -116,12 +116,13 @@ function App() {
 
       <Section>
         <SectionTitle>
-          <p>Jupyter Notebooks</p>
+          <p>Jupyter Notebooks || Projects</p>
         </SectionTitle>
         <SectionContent>
           <p><a href="/analysis.html">Analysis of Top 1000 Submissions in r/Toronto</a></p>
           <p><a href="/train.html">Training a sentiment classifier using a Naive Bayes model</a></p>
           <p><a href="/weather.html">Time Series Analysis and Forecasting of Atlanta Weather</a></p>
+          <p><a href="https://ocurl.io" target="_blank" rel="noopener noreferrer">URL Shortener API, Discord Bot, Chrome Extension</a></p>
         </SectionContent>
       </Section>
 
@@ -146,7 +147,7 @@ function App() {
           <p>Technical Skills</p>
         </SectionTitle>
         <SectionContent>
-          <p><b>Languages:</b>JavaScript, Java, Python, C, SQL, HTML, CSS</p>
+          <p><b>Languages:</b> JavaScript, Java, Python, C, SQL, HTML, CSS</p>
           <p><b>Frameworks:</b> React, Gatsby</p>
           <p><b>Databases / Stores:</b> Apache Cassandra, MS SQL, FireBase, Redis</p>
           <p><b>Platforms:</b> Node.js, Google Cloud Platform, DigitalOcean</p>
