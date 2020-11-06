@@ -146,7 +146,7 @@ function App() {
           <p>Technical Skills</p>
         </SectionTitle>
         <SectionContent>
-          <p><b>Languages:</b> C++, C, JavaScript, Java, Python, SQL, VHDL, HTML, CSS</p>
+          <p><b>Languages:</b>JavaScript, Java, Python, C, SQL, HTML, CSS</p>
           <p><b>Frameworks:</b> React, Gatsby</p>
           <p><b>Databases / Stores:</b> Apache Cassandra, MS SQL, FireBase, Redis</p>
           <p><b>Platforms:</b> Node.js, Google Cloud Platform, DigitalOcean</p>
