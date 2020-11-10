@@ -106,7 +106,7 @@ function App() {
           <H2>I'm <b>Nigel Huang</b>, a 3rd year Computer Engineering student.</H2>
         </SplashHeader>
         <SplashContent>
-          <a href="mailto:nigelhuang2000@gmail.com"><p>Email Contact: nigel.huang@ryerson.ca</p></a>
+          <a href="mailto:nigel.huang@ryerson.ca"><p>Email Contact: nigel.huang@ryerson.ca</p></a>
           <a href="/Nigel_Huang_Resume.pdf"><p>Resume</p></a>
           <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer"><p>GitHub</p></a>
           <a href="http://linkedin.com/in/nigel-huang/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
