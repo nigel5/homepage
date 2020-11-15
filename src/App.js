@@ -159,7 +159,7 @@ function App() {
           Work Experience
         </SectionTitle>
         <SectionContent>
-          <p><b>AMD</b> - Firmware Engineer (Memory Hardware Diagnostics Design) Intern (PEY 2021-2022)</p>
+          <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021-2022)</p>
           <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
           <p><b>Loadlink Technologies</b> - Software Developer Intern (Summer 2019)</p>
         </SectionContent>
