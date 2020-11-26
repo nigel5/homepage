@@ -116,18 +116,6 @@ function App() {
 
       <Section>
         <SectionTitle>
-          <p>Jupyter Notebooks || Projects</p>
-        </SectionTitle>
-        <SectionContent>
-          <p><a href="/analysis.html">Analysis of Top 1000 Submissions in r/Toronto</a></p>
-          <p><a href="/train.html">Training a sentiment classifier using a Naive Bayes model</a></p>
-          <p><a href="/weather.html">Time Series Analysis and Forecasting of Atlanta Weather</a></p>
-          <p><a href="https://ocurl.io" target="_blank" rel="noopener noreferrer">URL Shortener API, Discord Bot, Chrome Extension</a></p>
-        </SectionContent>
-      </Section>
-
-      <Section>
-        <SectionTitle>
           <p>About me</p>
         </SectionTitle>
         <SectionContent>
@@ -142,6 +130,19 @@ function App() {
           </p>
         </SectionContent>
       </Section>
+
+      <Section>
+        <SectionTitle>
+          <p>Jupyter Notebooks || Projects</p>
+        </SectionTitle>
+        <SectionContent>
+          <p><a href="/analysis.html">Analysis of Top 1000 Submissions in r/Toronto</a></p>
+          <p><a href="/train.html">Training a sentiment classifier using a Naive Bayes model</a></p>
+          <p><a href="/weather.html">Time Series Analysis and Forecasting of Atlanta Weather</a></p>
+          <p><a href="https://ocurl.io" target="_blank" rel="noopener noreferrer">URL Shortener API, Discord Bot, Chrome Extension</a></p>
+        </SectionContent>
+      </Section>
+
       <Section>
         <SectionTitle>
           <p>Technical Skills</p>
