@@ -103,11 +103,11 @@ function App() {
       <header>
         <SplashHeader>
           <H1>Hey there!</H1>
-          <H2>I'm <b>Nigel Huang</b>, a 3rd year Computer Engineering student.</H2>
+          <H2>I'm <b>Nigel Huang</b>, a 4th year Computer Engineering student.</H2>
         </SplashHeader>
         <SplashContent>
           <a href="mailto:nigel.huang@ryerson.ca"><p>Email Contact: nigel.huang@ryerson.ca</p></a>
-          <a href="/Nigel_Huang_Resume.pdf"><p>Resume</p></a>
+          <a href="https://drive.google.com/file/d/1Z9WIdzn5f43zxWcHvTmYeBaBp55E9J59/view?usp=sharing"><p>Resume</p></a>
           <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer"><p>GitHub</p></a>
           <a href="http://linkedin.com/in/nigel-huang/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
           <ToggleDarkMode tabIndex={0} aria-pressed={darkMode} aria-label="Toggle" aria-describedby="Toggle dark theme" onClick={() => setDarkMode(!darkMode)}><p>| Toggle Dark mode</p></ToggleDarkMode>
@@ -120,10 +120,10 @@ function App() {
         </SectionTitle>
         <SectionContent>
           <p>
-            I am currently a 3rd year undergrad student at <b>Ryerson University</b> working towards my degree in <b>Computer Engineering, with a focus in Software Engineering</b>.
+            I am currently a 4th year undergrad student at <b>Toronto Metropolitan University (formerly Ryerson University)</b> working towards my degree in <b>Computer Engineering, with a focus in Software Engineering</b>.
           </p>
           <p>
-            I recently completed an amazing summer internship at the <b>Royal Bank of Canada (RBC)</b> as a <b>Quality Engineer</b>. Previously, I interned as a <b>Software Developer</b> at <b>Loadlink Technologies</b>. Awesome stuff.
+            I recently completed an amazing 12 month internship at <b>Advanced Micro Devices (AMD)</b> as a <b>Diagnostics Engineer</b>. Previously, I interned as a <b>Quality Engineer</b> at <b>RBC</b>. Awesome stuff.
           </p>
           <p>
             As a rising Software Engineer, I enjoy working with others, learning, spreading knowledge, and building systems which enhances our lives, connect us, and provide a good experience for both the end user and developers.
@@ -160,6 +160,7 @@ function App() {
           Work Experience
         </SectionTitle>
         <SectionContent>
+          <p><b>Amazon</b> - Software Development Engineer Intern (Summer 2022)</p>
           <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021-2022)</p>
           <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
           <p><b>Loadlink Technologies</b> - Software Developer Intern (Summer 2019)</p>
