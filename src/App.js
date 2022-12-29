@@ -106,7 +106,7 @@ function App() {
           <H2>I'm <b>Nigel Huang</b>, a 4th year Computer Engineering student.</H2>
         </SplashHeader>
         <SplashContent>
-          <a href="mailto:nigel.huang@ryerson.ca"><p>Email Contact: nigel.huang@ryerson.ca</p></a>
+          <a href="mailto:nigel.huang@torontomu­.ca"><p>Email Contact: nigel.huang@torontomu­.ca</p></a>
           <a href="https://drive.google.com/file/d/1Z9WIdzn5f43zxWcHvTmYeBaBp55E9J59/view?usp=sharing"><p>Resume</p></a>
           <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer"><p>GitHub</p></a>
           <a href="http://linkedin.com/in/nigel-huang/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
@@ -140,6 +140,7 @@ function App() {
           <p><a href="/train.html">Training a sentiment classifier using a Naive Bayes model</a></p>
           <p><a href="/weather.html">Time Series Analysis and Forecasting of Atlanta Weather</a></p>
           <p><a href="https://ocurl.io" target="_blank" rel="noopener noreferrer">URL Shortener API, Discord Bot, Chrome Extension</a></p>
+          <p><a href="https://collabboard.ca" target="_blank" rel="noopener noreferrer">Online collaborative whiteboard</a></p>
         </SectionContent>
       </Section>
 
@@ -160,6 +161,7 @@ function App() {
           Work Experience
         </SectionTitle>
         <SectionContent>
+          <p><b>AMD</b> - Firmware Engineer 2 (Starting in Summer 2023)</p>
           <p><b>Amazon</b> - Software Development Engineer Intern (Summer 2022)</p>
           <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021-2022)</p>
           <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
