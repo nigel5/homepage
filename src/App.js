@@ -141,6 +141,9 @@ function App() {
           <p><a href="/weather.html">Time Series Analysis and Forecasting of Atlanta Weather</a></p>
           <p><a href="https://ocurl.io" target="_blank" rel="noopener noreferrer">URL Shortener API, Discord Bot, Chrome Extension</a></p>
           <p><a href="https://collabboard.ca" target="_blank" rel="noopener noreferrer">Online collaborative whiteboard</a></p>
+          <p><a href="https://www.youtube.com/watch?v=sma9TtPxqwk" target="_blank" rel="noopener noreferrer">Pong game on Xilinx Spartan 3E FPGA</a></p>
+          <p><a href="https://github.com/nigel5/Cooking-Recipe-Suggestion-Web-App" target="_blank" rel="noopener noreferrer">Cooking recipe suggestions app</a></p>
+          <p>View more projects on the <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer">GitHub</a> page</p>
         </SectionContent>
       </Section>
 
