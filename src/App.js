@@ -3,7 +3,6 @@ import styled, { ThemeProvider } from 'styled-components';
 import { Helmet } from 'react-helmet';
 import { dark, light } from './theme/themes';
 import GlobalStyles from './theme/GlobalStyle';
-import ReactGA from 'react-ga4'
 
 const Blinking = styled.span`
   animation: blinker 1.2s step-start infinite;
@@ -89,11 +88,6 @@ const ToggleDarkMode = styled.button`
 
 function App() {
   const [darkMode, setDarkMode] = React.useState(true);
-  
-  React.useEffect(() => {
-      ReactGA.initialize("G-6WC7RNQYTY");
-      ReactGA.send({ hitType: "pageview", page: "/", title: "Home Page Views" });
-  });
 
   return (
     <ThemeProvider theme={darkMode ? dark : light}>
