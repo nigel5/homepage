@@ -3,7 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import { Helmet } from 'react-helmet';
 import { dark, light } from './theme/themes';
 import GlobalStyles from './theme/GlobalStyle';
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 
 const Blinking = styled.span`
   animation: blinker 1.2s step-start infinite;
@@ -91,8 +91,8 @@ function App() {
   const [darkMode, setDarkMode] = React.useState(true);
   
   React.useEffect(() => {
-      ReactGA.initialize("UA-148475828-2");
-      ReactGA.pageview(window.location.pathname + window.location.search);
+      ReactGA.initialize("G-6WC7RNQYTY");
+      ReactGA.send({ hitType: "pageview", page: "/", title: "Home Page Views" });
   });
 
   return (
