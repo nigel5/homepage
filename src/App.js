@@ -167,11 +167,15 @@ function App() {
       </Section>
       <Section>
         <SectionTitle>
-          Outside of school (extracurriculars!)
+          Personal Works
         </SectionTitle>
         <SectionContent>
+          <p><b><a href="https://www.engineeredpathways.com/">Engineered Pathways</a></b></p>
+          <p>At Engineered Pathways, I provide career mentorship, resume building, and interview prep for students whether they are looking for an internship, full time, or already have a job.</p>
+          <br></br>
+
           <p><b>Academic Tutor</b></p>
-          <p>I tutor electric circuits, software systems, digital logic, and calculus. <b>All my students (10+) have seen at least a letter grade improvement in their grades</b>.</p>
+          <p>I tutor electric circuits, software systems, digital logic, and calculus. <b>All my students (50+) have seen at least a letter grade improvement in their grades</b>.</p>
           <br></br>
 
           <p><b>Ryerson Artificial Intelligence</b></p>
