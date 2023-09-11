@@ -158,7 +158,7 @@ function App() {
           Work Experience
         </SectionTitle>
         <SectionContent>
-          <p><b>AMD</b> - Firmware Engineer 2 (Starting in Summer 2023)</p>
+          <p><b>AMD</b> - Firmware Engineer 2 (Present)</p>
           <p><b>Amazon</b> - Software Development Engineer Intern (Summer 2022)</p>
           <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021-2022)</p>
           <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
