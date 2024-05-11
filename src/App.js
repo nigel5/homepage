@@ -97,7 +97,7 @@ function App() {
       <header>
         <SplashHeader>
           <H1>Hey there!</H1>
-          <H2>I'm <b>Nigel Huang</b>, a 4th year Computer Engineering student.</H2>
+          <H2>I'm <b>Nigel Huang</b>, a Software Engineer based in Toronto.</H2>
         </SplashHeader>
         <SplashContent>
           <a href="mailto:nigel.huang@torontomu­.ca"><p>Email Contact: nigel.huang@torontomu­.ca</p></a>
@@ -114,13 +114,7 @@ function App() {
         </SectionTitle>
         <SectionContent>
           <p>
-            I am currently a 4th year undergrad student at <b>Toronto Metropolitan University (formerly Ryerson University)</b> working towards my degree in <b>Computer Engineering, with a focus in Software Engineering</b>.
-          </p>
-          <p>
-            I recently completed an amazing 12 month internship at <b>Advanced Micro Devices (AMD)</b> as a <b>Diagnostics Engineer</b>. Previously, I interned as a <b>Quality Engineer</b> at <b>RBC</b>. Awesome stuff.
-          </p>
-          <p>
-            As a rising Software Engineer, I enjoy working with others, learning, spreading knowledge, and building systems which enhances our lives, connect us, and provide a good experience for both the end user and developers.
+            I am currently a Software Development Engineer at <b>AMD</b>. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
           </p>
         </SectionContent>
       </Section>
@@ -130,14 +124,15 @@ function App() {
           <p>Jupyter Notebooks || Projects</p>
         </SectionTitle>
         <SectionContent>
+          <p><a href="https://thequotesapp.com/" target="_blank" rel="noopener">The Quotes App - Daily quotes for 25 categories (iOS App)</a></p>
           <p><a href="/analysis.html">Analysis of Top 1000 Submissions in r/Toronto</a></p>
           <p><a href="/train.html">Training a sentiment classifier using a Naive Bayes model</a></p>
           <p><a href="/weather.html">Time Series Analysis and Forecasting of Atlanta Weather</a></p>
-          <p><a href="https://ocurl.io" target="_blank" rel="noopener noreferrer">URL Shortener API, Discord Bot, Chrome Extension</a></p>
-          <p><a href="https://collabboard.ca" target="_blank" rel="noopener noreferrer">Online collaborative whiteboard</a></p>
-          <p><a href="https://www.youtube.com/watch?v=sma9TtPxqwk" target="_blank" rel="noopener noreferrer">Pong game on Xilinx Spartan 3E FPGA</a></p>
-          <p><a href="https://github.com/nigel5/Cooking-Recipe-Suggestion-Web-App" target="_blank" rel="noopener noreferrer">Cooking recipe suggestions app</a></p>
-          <p>View more projects on the <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer">GitHub</a> page</p>
+          <p><a href="https://ocurl.io" target="_blank" rel="noopener">URL Shortener API, Discord Bot, Chrome Extension</a></p>
+          <p><a href="https://collabboard.ca" target="_blank" rel="noopener">Online collaborative whiteboard</a></p>
+          <p><a href="https://www.youtube.com/watch?v=sma9TtPxqwk" target="_blank" rel="noopener">Pong game on Xilinx Spartan 3E FPGA</a></p>
+          <p><a href="https://github.com/nigel5/Cooking-Recipe-Suggestion-Web-App" target="_blank" rel="noopener">Cooking recipe suggestions app</a></p>
+          <p>View more projects on the <a href="https://github.com/nigel5" target="_blank" rel="noopener">GitHub</a> page</p>
         </SectionContent>
       </Section>
 
@@ -158,7 +153,7 @@ function App() {
           Work Experience
         </SectionTitle>
         <SectionContent>
-          <p><b>AMD</b> - Firmware Engineer 2 (Present)</p>
+          <p><b>AMD</b> - Software Development Engineer 2 (June 2023-Present)</p>
           <p><b>Amazon</b> - Software Development Engineer Intern (Summer 2022)</p>
           <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021-2022)</p>
           <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
@@ -180,6 +175,9 @@ function App() {
 
           <p><b>Ryerson Artificial Intelligence</b></p>
           <p>We have run <b>workshops attended by over 250+ students</b> in the Ryerson community. I developed the team's website, and also aid in workshop material preparation.</p>
+  
+          <p><b>Wordpress Consulting and Development</b></p>
+          <p>Wordpress consulting and plugin development in PHP.</p>
         </SectionContent>
       </Section>
       <Section>
