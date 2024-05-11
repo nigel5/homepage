@@ -124,15 +124,15 @@ function App() {
           <p>Jupyter Notebooks || Projects</p>
         </SectionTitle>
         <SectionContent>
-          <p><a href="https://thequotesapp.com/" target="_blank" rel="noopener">The Quotes App - Daily quotes for 25 categories (iOS App)</a></p>
+          <p><a href="https://thequotesapp.com/">The Quotes App - Daily quotes for 25 categories (iOS App)</a></p>
           <p><a href="/analysis.html">Analysis of Top 1000 Submissions in r/Toronto</a></p>
           <p><a href="/train.html">Training a sentiment classifier using a Naive Bayes model</a></p>
           <p><a href="/weather.html">Time Series Analysis and Forecasting of Atlanta Weather</a></p>
-          <p><a href="https://ocurl.io" target="_blank" rel="noopener">URL Shortener API, Discord Bot, Chrome Extension</a></p>
-          <p><a href="https://collabboard.ca" target="_blank" rel="noopener">Online collaborative whiteboard</a></p>
-          <p><a href="https://www.youtube.com/watch?v=sma9TtPxqwk" target="_blank" rel="noopener">Pong game on Xilinx Spartan 3E FPGA</a></p>
-          <p><a href="https://github.com/nigel5/Cooking-Recipe-Suggestion-Web-App" target="_blank" rel="noopener">Cooking recipe suggestions app</a></p>
-          <p>View more projects on the <a href="https://github.com/nigel5" target="_blank" rel="noopener">GitHub</a> page</p>
+          <p><a href="https://ocurl.io">URL Shortener API, Discord Bot, Chrome Extension</a></p>
+          <p><a href="https://collabboard.ca">Online collaborative whiteboard</a></p>
+          <p><a href="https://www.youtube.com/watch?v=sma9TtPxqwk">Pong game on Xilinx Spartan 3E FPGA</a></p>
+          <p><a href="https://github.com/nigel5/Cooking-Recipe-Suggestion-Web-App">Cooking recipe suggestions app</a></p>
+          <p>View more projects on the <a href="https://github.com/nigel5">GitHub</a> page</p>
         </SectionContent>
       </Section>
 
@@ -175,7 +175,7 @@ function App() {
 
           <p><b>Ryerson Artificial Intelligence</b></p>
           <p>We have run <b>workshops attended by over 250+ students</b> in the Ryerson community. I developed the team's website, and also aid in workshop material preparation.</p>
-  
+          <br></br> 
           <p><b>Wordpress Consulting and Development</b></p>
           <p>Wordpress consulting and plugin development in PHP.</p>
         </SectionContent>
