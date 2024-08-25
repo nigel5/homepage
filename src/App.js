@@ -101,7 +101,6 @@ function App() {
         </SplashHeader>
         <SplashContent>
           <a href="mailto:nigel.huang@torontomu­.ca"><p>Email Contact: nigel.huang@torontomu­.ca</p></a>
-          <a href="https://drive.google.com/file/d/1Z9WIdzn5f43zxWcHvTmYeBaBp55E9J59/view?usp=sharing"><p>Resume</p></a>
           <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer"><p>GitHub</p></a>
           <a href="http://linkedin.com/in/nigel-huang/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
           <ToggleDarkMode tabIndex={0} aria-pressed={darkMode} aria-label="Toggle" aria-describedby="Toggle dark theme" onClick={() => setDarkMode(!darkMode)}><p>| Toggle Dark mode</p></ToggleDarkMode>
@@ -114,7 +113,7 @@ function App() {
         </SectionTitle>
         <SectionContent>
           <p>
-            I am currently a Software Development Engineer at <b>AMD</b>. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
+            I am currently a Software Development Engineer at <b>AMD</b> working on GPU diagnostics. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
           </p>
         </SectionContent>
       </Section>
@@ -124,6 +123,7 @@ function App() {
           <p>Jupyter Notebooks || Projects</p>
         </SectionTitle>
         <SectionContent>
+          <p><a href="/neural_network_from_scratch.html">Implementation and Evaluation of a Neural Network from Scratch</a></p>
           <p><a href="https://thequotesapp.com/">The Quotes App - Daily quotes for 25 categories (iOS App)</a></p>
           <p><a href="/analysis.html">Analysis of Top 1000 Submissions in r/Toronto</a></p>
           <p><a href="/train.html">Training a sentiment classifier using a Naive Bayes model</a></p>
@@ -141,11 +141,12 @@ function App() {
           <p>Technical Skills</p>
         </SectionTitle>
         <SectionContent>
-          <p><b>Languages:</b> JavaScript, Java, Python, C, SQL, HTML, CSS</p>
-          <p><b>Frameworks:</b> React, Gatsby</p>
-          <p><b>Databases / Stores:</b> Apache Cassandra, MS SQL, FireBase, Redis</p>
+          <p><b>Subjects:</b> Low level software development, GPU diagnostics, virtual memory and caches</p>
+          <p><b>Languages:</b> C++, C, JavaScript, Java, Python, SQL</p>
+          <p><b>Frameworks:</b> React</p>
+          <p><b>Databases / Stores:</b> Postgres, Apache Cassandra, FireBase, Redis</p>
           <p><b>Platforms:</b> Node.js, Google Cloud Platform, DigitalOcean</p>
-          <p><b>Tools:</b> Git, Docker, Debuggers</p>
+          <p><b>Tools:</b> Git, Docker, Linux</p>
         </SectionContent>
       </Section>
       <Section>
