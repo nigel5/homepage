@@ -113,7 +113,7 @@ function App() {
         </SectionTitle>
         <SectionContent>
           <p>
-            I am currently a Software Engineer at <b>Tenstorrent</b> working on <a href="https://github.com/tenstorrent/tt-metal" target="_blank" rel="noopener">GPU kernel programming software</a>. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
+            I am currently a Software Engineer at <b>Tenstorrent</b> working on <a href="https://github.com/tenstorrent/tt-metal">GPU kernel programming software</a>. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
           </p>
         </SectionContent>
       </Section>
