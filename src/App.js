@@ -97,7 +97,7 @@ function App() {
       <header>
         <SplashHeader>
           <H1>Hey there!</H1>
-          <H2>I'm <b>Nigel Huang</b>, a Software Engineer based in Toronto.</H2>
+          <H2>I'm <b>Nigel Huang</b>, a Software Engineer based in Santa Clara.</H2>
         </SplashHeader>
         <SplashContent>
           <a href="mailto:nigel.huang@torontomu­.ca"><p>Email Contact: nigel.huang@torontomu­.ca</p></a>
@@ -113,7 +113,7 @@ function App() {
         </SectionTitle>
         <SectionContent>
           <p>
-            I am currently a Software Development Engineer at <b>AMD</b> working on GPU diagnostics. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
+            I am currently a Software Engineer at <b>Tenstorrent</b> working on GPU kernel programming software. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
           </p>
         </SectionContent>
       </Section>
@@ -141,7 +141,7 @@ function App() {
           <p>Technical Skills</p>
         </SectionTitle>
         <SectionContent>
-          <p><b>Subjects:</b> Low level software development, GPU diagnostics, virtual memory and caches</p>
+          <p><b>Subjects:</b> Low level software development, GPU diagnostics, virtual memory and caches, kernel dispatch</p>
           <p><b>Languages:</b> C++, C, JavaScript, Java, Python, SQL</p>
           <p><b>Frameworks:</b> React</p>
           <p><b>Databases / Stores:</b> Postgres, Apache Cassandra, FireBase, Redis</p>
@@ -154,9 +154,10 @@ function App() {
           Work Experience
         </SectionTitle>
         <SectionContent>
-          <p><b>AMD</b> - Software Development Engineer 2 (June 2023-Present)</p>
+          <p><b>Tenstorrent</b> - Software Engineer (November 2024 - Present)</p>
+          <p><b>AMD</b> - Software Development Engineer 2 (June 2023 - November 2024)</p>
           <p><b>Amazon</b> - Software Development Engineer Intern (Summer 2022)</p>
-          <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021-2022)</p>
+          <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021 - 2022)</p>
           <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
           <p><b>Loadlink Technologies</b> - Software Developer Intern (Summer 2019)</p>
         </SectionContent>
