@@ -124,7 +124,7 @@ function App() {
         </SectionTitle>
         <SectionContent>
           <p><b>Google</b> - Software Engineer (March 2026 - Present)</p>
-          <p><b>Tenstorrent</b> - Software Engineer (November 2024 - March 2026)</p>
+          <p><b>Tenstorrent</b> - Senior Software Engineer (November 2024 - March 2026)</p>
           <p><b>AMD</b> - Software Development Engineer 2 (June 2023 - November 2024)</p>
           <hr />
           <p><b>Amazon</b> - Software Development Engineer Intern (Summer 2022)</p>
