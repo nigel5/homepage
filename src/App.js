@@ -100,7 +100,7 @@ function App() {
           <H2>I'm <b>Nigel Huang</b>, a Software Engineer based in Santa Clara.</H2>
         </SplashHeader>
         <SplashContent>
-          <a href="mailto:nigel.huang@torontomu­.ca"><p>Email Contact: nigel.huang@torontomu­.ca</p></a>
+          <a href="mailto:nigel.huang@torontomu.ca"><p>nigel.huang@torontomu­.ca</p></a>
           <a href="https://github.com/nigel5" target="_blank" rel="noopener noreferrer"><p>GitHub</p></a>
           <a href="http://linkedin.com/in/nigel-huang/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
           <ToggleDarkMode tabIndex={0} aria-pressed={darkMode} aria-label="Toggle" aria-describedby="Toggle dark theme" onClick={() => setDarkMode(!darkMode)}><p>| Toggle Dark mode</p></ToggleDarkMode>
@@ -113,7 +113,7 @@ function App() {
         </SectionTitle>
         <SectionContent>
           <p>
-            I am currently a Software Engineer at <b>Google</b> working on reliable, performant, and efficient infrastructure for running AI. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
+            I am currently a Software Engineer at <b>Google</b> working on reliable, performant, and efficient infrastructure for running AI. I graduated from Ryerson University Computer Engineering, with a focus in Software Engineering.
           </p>
         </SectionContent>
       </Section>
