@@ -113,14 +113,30 @@ function App() {
         </SectionTitle>
         <SectionContent>
           <p>
-            I am currently a Software Engineer at <b>Tenstorrent</b> working on <a href="https://github.com/tenstorrent/tt-metal">GPU kernel programming software</a>. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
+            I am currently a Software Engineer at <b>Google</b> working on reliable, performant, and efficient infrastructure for running AI. I graduated from Ryerson University <b>Computer Engineering, with a focus in Software Engineering</b> in 2023.
           </p>
         </SectionContent>
       </Section>
 
       <Section>
         <SectionTitle>
-          <p>Jupyter Notebooks || Projects</p>
+          Work Experience
+        </SectionTitle>
+        <SectionContent>
+          <p><b>Google</b> - Software Engineer (March 2026 - Present)</p>
+          <p><b>Tenstorrent</b> - Software Engineer (November 2024 - March 2026)</p>
+          <p><b>AMD</b> - Software Development Engineer 2 (June 2023 - November 2024)</p>
+          <hr />
+          <p><b>Amazon</b> - Software Development Engineer Intern (Summer 2022)</p>
+          <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021 - 2022)</p>
+          <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
+          <p><b>Loadlink Technologies</b> - Software Developer Intern (Summer 2019)</p>
+        </SectionContent>
+      </Section>
+
+      <Section>
+        <SectionTitle>
+          <p>Projects</p>
         </SectionTitle>
         <SectionContent>
           <p><a href="/neural_network_from_scratch.html">Implementation and Evaluation of a Neural Network from Scratch</a></p>
@@ -149,22 +165,10 @@ function App() {
           <p><b>Tools:</b> Git, Docker, Linux</p>
         </SectionContent>
       </Section>
+
       <Section>
         <SectionTitle>
-          Work Experience
-        </SectionTitle>
-        <SectionContent>
-          <p><b>Tenstorrent</b> - Software Engineer (November 2024 - Present)</p>
-          <p><b>AMD</b> - Software Development Engineer 2 (June 2023 - November 2024)</p>
-          <p><b>Amazon</b> - Software Development Engineer Intern (Summer 2022)</p>
-          <p><b>AMD</b> - Memory Hardware Diagnostics Design Intern (PEY 2021 - 2022)</p>
-          <p><b>Royal Bank of Canada (RBC)</b> - Quality Engineer Intern (Summer 2020)</p>
-          <p><b>Loadlink Technologies</b> - Software Developer Intern (Summer 2019)</p>
-        </SectionContent>
-      </Section>
-      <Section>
-        <SectionTitle>
-          Personal Works
+          Other Work
         </SectionTitle>
         <SectionContent>
           <p><b><a href="https://www.engineeredpathways.com/">Engineered Pathways</a></b></p>
